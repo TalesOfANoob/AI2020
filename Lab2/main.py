@@ -50,10 +50,7 @@ def solve(matrix, n, src=None, dest=None):
 
 
 def main():
-    # file = 'easy_01_tsp.txt'
-    # file = 'easy_03_tsp.txt'
-    # file = 'medium_01_tsp.txt'
-    file = 'hard_01_tsp.txt'
+   file = 'easy_01_tsp.txt'
 
     matrix = []
     n = readFile(matrix, file)
